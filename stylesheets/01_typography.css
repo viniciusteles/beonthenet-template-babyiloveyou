@@ -1,0 +1,211 @@
+html * {
+  font:                   normal normal normal 1em/1em "Trebuchet MS", Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+
+h3 {
+  text-align:             center;
+  text-transform:         uppercase;
+}
+h3, h3 a {
+  font-family:            Georgia, serif;
+}
+
+p, label, li {
+  font-size:              90%;
+  line-height:            1.75em;
+}
+
+p {
+  margin-bottom:          .5em;
+}
+
+strong {
+  font-weight:            bold;
+}
+
+em {
+  font-style:             italic;
+}
+
+
+/* Header */
+#header h1 a {
+  text-decoration:        none;
+}
+
+#header img {
+  font-size:              300%;
+  line-height:            2.75em;
+}
+
+#header li {
+  font-size:              100%;
+  list-style:             none;
+}
+
+#header li a {
+  line-height:            3.3em;
+}
+
+#global_search #query {
+  font-size:              90%;
+  line-height:            1.1em;
+}
+/* /Header */
+
+
+/* Main content */
+#main_content h1, #main_content h2, 
+#main_content h2 #selection_size, 
+body.who cite, 
+form input, form textarea {
+  font:                   italic normal normal 230%/1.5em Georgia, serif;
+}
+
+#main_content h2, #main_content h2 #selection_size {
+  font-style:             normal;
+  font-size:              85%;
+  text-transform:         uppercase;
+}
+#main_content h2 #selection_size {
+  font-size:              150%;
+  line-height:            .5em;
+}
+
+#subnavigation {
+  font-size:              70%;
+  line-height:            1em;
+  text-align:             right;
+}
+
+#subnavigation a {
+  font-style:             italic;
+}
+/* /Main content */
+
+
+/* Thumbnails list */
+#thumbnails {
+  list-style:             none;
+}
+
+#thumbnails li div {
+  text-align:             center;
+}
+
+ul#thumbnails li div a {
+  text-align:             center;
+  text-decoration:        none;
+}
+
+ul#thumbnails a img {
+	font-size:              80%;
+	line-height:            2em;
+}
+/* /Thumbnails list */
+
+
+/* Summary */
+#summary p {
+  font-size:              80%;
+  text-align:             center;
+}
+/* /Summary */
+
+
+/* Big picture, big video */
+#big_picture {
+  text-align:               center;
+}
+
+#big_picture a {
+  font-style:             italic;
+  font-size:              80%;
+}
+
+#big_picture img {
+	line-height:            8em;
+}
+/* /Big picture, big video */
+
+
+/* Tags and searchable items */
+#tags p, 
+#valid_search_suggestions {
+  text-align:             center;
+}
+
+#tags a, 
+#valid_search_suggestions a, 
+#searched_item {
+  font-style:             italic;
+  font-size:              90%;
+}
+
+#searched_item {
+  font-size:              100%;
+}
+/* /Tags and searchable items */
+
+
+/* Who */
+body.who cite {
+  font-size:              120%;
+  text-align:             right;
+}
+/* /Who */
+
+
+/* Contact form */
+form input, form textarea {
+  font-size:              110%;
+}
+/* /Contact form */
+
+
+/* Errors and Successes */
+#submit_error, #submit_success, #not_found {
+  text-align:             center;
+  text-transform:         uppercase;
+}
+
+#not_found {
+  text-transform:         lowercase;
+  text-align:             center;
+}
+/* /Errors and Successes */
+
+
+/* Error pages */
+body.application #main_content h2 {
+  text-align:             right;
+  line-height:            2em;
+}
+
+.error_hints li {
+  font-size:              85%;
+  line-height:            1.5em;
+}
+/* /Error pages */
+
+
+/* Footer */
+#footer p, #footer h6 {
+  text-align:             center;
+}
+
+#footer p {
+  font-size:              85%;  
+}
+
+#footer h6 {
+  font-size:              72%;
+}
+/* /Footer */
+
+
+/* Generated content */
+body#selection #main_content h1:after {
+  font:                   normal normal normal .4em/1.5em "Trebuchet MS", Helvetica, "Lucida Grande", Arial, sans-serif;
+}
+/* /Generated content */
