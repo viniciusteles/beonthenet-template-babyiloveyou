@@ -111,19 +111,43 @@ body {
 }
 
 #thumbnails li {
+/*  border:1px dotted red;*/
+  width:290px;
+  position:relative;
+
   float:                  left;
-  margin:                 0 3em 2.5em 1em;
+  margin:                 2.5em 3em 2.5em 1em;
 }
 #thumbnails > li {
-  margin:                 0 2em 2.5em 2em;
+  margin:                 2.5em 2em 2.5em 2em;
 }
 
 #thumbnails h3 {
   margin-bottom:          .5em;
+  
+  position:absolute;
+  left:0;
+  bottom:295px;
+  width:100%;
 }
 
 #thumbnails h4 {
-  display:                none;
+/*  display:                none;*/
+position:absolute;
+right:0;
+bottom:287px;
+/*width:30px;*/
+/*border:1px dashed blue;*/
+width:100%;
+font-size: 80%;
+text-align:center;
+z-index:1;
+}
+
+#thumbnails h4 a {
+/*font-family:serif;*/
+  color:#415579;
+  text-decoration:none;
 }
 
 /* Vertically centering images 
@@ -134,14 +158,14 @@ ul#thumbnails div a {
   height:                 285px;
   vertical-align:         middle;
 }
+
+
 ul#thumbnails div img {
   border:                 2px solid;
-  vertical-align:         middle;
   position:               relative;
   top:                    -10px;
   left:                   13px;
 }
-
 
 body#gallery #thumbnails, 
 body#search #thumbnails {
