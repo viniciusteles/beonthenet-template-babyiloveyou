@@ -233,7 +233,7 @@ body#search_picture #summary {
 }
 
 #big_picture label {
-  display:                none;
+/*  display:                none;*/
 }
 /* /Big picture, big video */
 
@@ -286,7 +286,7 @@ input, textarea {
 label#subject, input#message_subject, 
 label#wedding_date, input#message_wedding_date, 
 label#wedding_place, input#message_wedding_place {
-  display:                none;
+/*  display:                none;*/
 }
 
 textarea {
@@ -362,8 +362,8 @@ body#selection #main_content h1:after {
 #data_sheet, 
 body#selection #main_content ul, 
 body#selection #main_content h2, 
-body#sselection #main_content p.checkout,
-body#sselection #main_content p.pictures_sent {
-  display:                none;
+body#selection #main_content p.checkout,
+body#selection #main_content p.pictures_sent {
+/*  display:                none;*/
 }
 /* /Disappearing content */
