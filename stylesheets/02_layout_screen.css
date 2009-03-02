@@ -5,26 +5,26 @@ html * {
 	margin:                 0;
 }
 
-hr, #thumbnails li.empty {
-	display:                block;
-	float:                  none;
-	height:                 0;
-	padding:                0;
-	margin:                 0;
-	clear:                  both;
-	visibility:             hidden;
+hr, ul#thumbnails li.empty {
+  display:                block;
+  float:                  none;
+  height:                 0;
+  padding:                0;
+  margin:                 0;
+  clear:                  both;
+  visibility:             hidden;
 }
 
 body {
-  width:                  48.75em;
-  margin:                 auto;
+  width:                  900px;
+  margin:                 40px auto;
 }
 
 
 /* Header */
 #header {
-  height:                 4.5em;
-  margin-top:             2.25em;
+  padding:                20px;
+/*  margin-top:             40px;*/
   position:               relative;
 }
 
@@ -32,15 +32,40 @@ body {
   display:                none;
 }
 
-#header h1 {
-  position:               absolute;
-  top:                    -1.8em;
-  left:                   2.15em;
+#logo_screen {
+/*  border:                                               1px dashed yellow;*/
+  width:                  300px;
+/*  position:               absolute;*/
+  top:                    0;
+/*bottom:0;*/
+/*bottom:0;*/
+  left:                   0;
+/*  top:                    -1.8em;*/
+/*  left:                   2.15em;*/
   z-index:                100;
+/*float:left;*/
+/*position:relative;*/
+}
+
+#logo_screen, #global_search #query {
+  position:absolute;
+}
+
+#slogan {
+/*  display:none;*/
+/*position:absolute;*/
+/*bottom:0;*/
+/*float:left;*/
+
+/*display:none;*/
 }
 
 #header ul {
-  margin-left:            18.5em;
+/*  border:1px solid blue;*/
+/*  margin-left:            18.5em;*/
+/*  margin-left:    310px;*/
+/*  position:relative;*/
+  padding-left:310px;
 }
 
 #header li {
@@ -48,8 +73,9 @@ body {
 }
 
 #header li a {
-  display:                block;
-  float:                  left;
+  border:1px dotted gray;
+/*  display:                block;*/
+/*  float:                  left;*/
   padding:                .5em 1.6em;
 }
 #header li a:active {
@@ -65,7 +91,7 @@ body {
   width:                  10em;
   padding:                0 .5em;
   border:                 3px solid;
-  position:               absolute;
+/*  position:               absolute;*/
   top:                    -1.5em;
   right:                  0;
 }
@@ -108,6 +134,9 @@ body {
 /* Thumbnails list */
 #thumbnails {
   margin-top:             2em;
+  border:1px dotted blue;
+/*  margin-left:-2.5em;*/
+/*  margin-right:-2.5em;*/
 }
 
 #thumbnails li {
@@ -119,7 +148,8 @@ body {
   margin:                 2.5em 3em 2.5em 1em;
 }
 #thumbnails > li {
-  margin:                 2.5em 2em 2.5em 2em;
+/*  margin:                 2.5em 2em 2.5em 2em;*/
+  margin:                 2.5em 2em 2.5em 5em;
 }
 
 #thumbnails h3 {
@@ -152,15 +182,15 @@ z-index:1;
 
 /* Vertically centering images 
 (conditional comments for IE required) */
-ul#thumbnails div a {
-  display:                table-cell;
+#thumbnails div a {
+/*  display:                table-cell;*/
   width:                  290px;
   height:                 285px;
-  vertical-align:         middle;
+/*  vertical-align:         middle;*/
 }
 
 
-ul#thumbnails div img {
+#thumbnails div img {
   border:                 2px solid;
   position:               relative;
   top:                    -10px;

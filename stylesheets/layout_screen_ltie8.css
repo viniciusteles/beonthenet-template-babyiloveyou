@@ -1,0 +1,32 @@
+/* Style sheet with conditions for Internet Explorer. */
+
+body {
+  position:               relative;
+}
+
+hr {
+  margin:                 -8px 0 -7px 0;
+}
+
+/* Vertically centering images */
+#thumbnails li div a {
+/*  display:                block;*/
+}
+#thumbnails li div span.ie {
+/*  display:                inline-block;*/
+/*  height:                 100%;*/
+/*  vertical-align:         middle;*/
+}
+#thumbnails div img {
+/*  vertical-align:         middle;*/
+}
+
+body#gallery #thumbnails, 
+body#search #thumbnails {
+/*  background:             none;*/
+}
+
+#big_picture {
+/*  margin-left:            29.5%;*/
+/*  right:                  20.5%;*/
+}

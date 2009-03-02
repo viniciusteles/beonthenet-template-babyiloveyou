@@ -29,13 +29,12 @@ em {
 
 
 /* Header */
-#header h1 a {
+#logo_screen a, #logo_screen img {
+  font:                   italic normal normal 300%/.75em Georgia, serif;
   text-decoration:        none;
 }
-
-#header img {
-  font-size:              300%;
-  line-height:            2.75em;
+#logo_screen img {
+  font-size:              100%;
 }
 
 #header li {
@@ -93,12 +92,12 @@ form input, form textarea {
   text-align:             center;
 }
 
-ul#thumbnails li div a {
+#thumbnails li div a {
   text-align:             center;
   text-decoration:        none;
 }
 
-ul#thumbnails a img {
+#thumbnails a img {
 	font-size:              80%;
 	line-height:            2em;
 }

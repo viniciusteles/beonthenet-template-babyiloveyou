@@ -23,14 +23,10 @@ a:hover {
   background:             #EDE8D2;
 }
 
-#header img {
+#header a, #header img {
   color:                  #415579;
 }
-
-#header li a {
-  color:                  #415579;
-}
-#header li a:hover {
+#header a:hover, #header a:hover img {
   color:                  #555;
 }
 #header li a:active {
@@ -57,21 +53,21 @@ a:hover {
 
 
 /* Thumbnails list */
-ul#thumbnails div a {
+#thumbnails div a {
   background:             #DEC9A0 url(../images/scrap_gallery.jpg) no-repeat center;
 }
-ul#thumbnails div a:hover {
+#thumbnails div a:hover {
   background-image:       url(../images/scrap_gallery_h.jpg);
 }
 
-ul#thumbnails a img {
+#thumbnails a img {
 	color:                  #7F6B43;
   border-color:           #896A3D;
   border-right-color:     #DAD5C5;
   border-bottom-color:    #DAD5C5;
 }
 
-ul#thumbnails a:hover img {
+#thumbnails a:hover img {
 	color:                  #333;
 }
 
