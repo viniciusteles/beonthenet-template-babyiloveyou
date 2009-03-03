@@ -23,8 +23,10 @@ body {
 
 /* Header */
 #header {
-  padding:                20px;
-/*  margin-top:             40px;*/
+  min-height:             100px;
+  height:                 auto !important;
+  height:                 100px;
+  padding:                20px 0;
   position:               relative;
 }
 
@@ -32,55 +34,68 @@ body {
   display:                none;
 }
 
+#logo_screen, #slogan, #global_search #query {
+  position:               absolute;
+}
+
 #logo_screen {
-/*  border:                                               1px dashed yellow;*/
+  padding:                0 0 10px 0;
+/*  border:                                               1px dashed green;*/
   width:                  300px;
 /*  position:               absolute;*/
-  top:                    0;
+  top:                    20px;
 /*bottom:0;*/
-/*bottom:0;*/
-  left:                   0;
+  left:                   20px;
 /*  top:                    -1.8em;*/
 /*  left:                   2.15em;*/
-  z-index:                100;
+/*  z-index:                100;*/
 /*float:left;*/
 /*position:relative;*/
 }
 
-#logo_screen, #global_search #query {
-  position:absolute;
+#main_content, #footer {
+/*  position:relative;*/
+/*  z-index:-1;*/
+/*display:none;*/
 }
 
 #slogan {
-/*  display:none;*/
-/*position:absolute;*/
-/*bottom:0;*/
-/*float:left;*/
-
+  bottom:20px;
+  left:20px;
 /*display:none;*/
 }
 
 #header ul {
-/*  border:1px solid blue;*/
+  width:540px;
+/*  border:                                           1px solid blue;*/
 /*  margin-left:            18.5em;*/
 /*  margin-left:    310px;*/
-/*  position:relative;*/
-  padding-left:310px;
+  position:absolute;
+/*  margin-left:310px;*/
+/*padding:0;*/
+right:20px;
+bottom:35px;
 }
 
+
+
 #header li {
+/*  border:                                       1px dotted green;*/
+  
   display:                inline;
+  margin:0 !important;
 }
 
 #header li a {
-  border:1px dotted gray;
+/*  border:                                     1px dotted gray;*/
 /*  display:                block;*/
 /*  float:                  left;*/
-  padding:                .5em 1.6em;
+  padding:                8px 25px;
+  margin:0;
 }
 #header li a:active {
-  position:               relative;
-  top:                    1px;
+/*  position:               relative;*/
+/*  top:                    1px;*/
 }
 
 #global_search {
@@ -91,7 +106,7 @@ body {
   width:                  10em;
   padding:                0 .5em;
   border:                 3px solid;
-/*  position:               absolute;*/
+  position:               absolute;
   top:                    -1.5em;
   right:                  0;
 }

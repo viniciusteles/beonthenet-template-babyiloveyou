@@ -37,16 +37,20 @@ em {
   font-size:              100%;
 }
 
+#slogan {
+  line-height:            1.1em;
+}
+
 #header li {
   font-size:              100%;
   list-style:             none;
 }
 
 #header li a {
-  line-height:            3.3em;
+  line-height:            2.5em;
 }
 
-#global_search #query {
+#slogan, #global_search #query {
   font-size:              90%;
   line-height:            1.1em;
 }
