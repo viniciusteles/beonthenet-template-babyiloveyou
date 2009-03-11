@@ -12,7 +12,7 @@ h3, h3 a {
 
 p, label, li {
   font-size:              90%;
-  line-height:            1.75em;
+  line-height:            1.5em;
 }
 
 p {
@@ -60,9 +60,12 @@ em {
 /* Main content */
 #main_content h1, #main_content h2, 
 #main_content h2 #selection_size, 
-body.who cite, 
 form input, form textarea {
   font:                   italic normal normal 230%/1.5em Georgia, serif;
+}
+
+#main_content h1 {
+  line-height:            .8em;
 }
 
 #main_content h2, #main_content h2 #selection_size {
