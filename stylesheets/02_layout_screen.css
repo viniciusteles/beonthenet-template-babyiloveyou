@@ -282,14 +282,6 @@ body#search_picture #summary {
 /* /Tags and searchable items */
 
 
-/* Who */
-body.who cite {
-  display:                block;
-  margin:                 1em 1.5em 0 1.5em;
-}
-/* /Who */
-
-
 /* Contact form */
 form {
   width:                  60%;
@@ -371,12 +363,10 @@ body.application #main_content h3 {
 
 /* Generated content */
 body#selection #main_content h1:after {
-  content:                "Infelizmente ainda não disponibilizamos seleção de fotos aqui no site do Vitinho. Quem sabe um dia... Se você chegou até aqui digitando na barra de endereços, clique em Melhores fotos, no menu deste site, para navegar pelos melhores momentos deste neném lindo.";
-}
-
-body#selection #main_content h1:after {
   display:                block;
-  margin-top:             2em;
+  margin:                 2em 130px 0 130px;
+  content:                "Desculpe, infelizmente a seleção de imagens ainda não está disponível neste template. Estamos cuidando disso. Se você chegou até aqui digitando na barra de endereços, use o menu no topo do site para navegar de volta às páginas desejadas.";
+
 }
 /* /Generated content */
 
@@ -386,8 +376,28 @@ body#selection #main_content h1:after {
 #data_sheet, 
 body#selection #main_content ul, 
 body#selection #main_content h2, 
+body#selection #main_content p.pages,
 body#selection #main_content p.checkout,
 body#selection #main_content p.pictures_sent {
-/*  display:                none;*/
+  display:                none;
 }
 /* /Disappearing content */
+
+
+/* Text */
+.text #main_content {
+  padding-right:          170px;
+  padding-left:           170px;
+}
+
+.text #main_content h1, 
+.text #main_content h2, 
+.text #main_content h3 {
+  margin-right:           -130px;
+  margin-left:            -130px;
+}
+
+p {
+/*  margin:                 .5em 0 .75em 0;*/
+}
+/* /Text */
