@@ -34,68 +34,43 @@ body {
   display:                none;
 }
 
-#logo_screen, #slogan, #global_search #query {
+#logo_screen, #slogan, #header ul, #global_search #query {
   position:               absolute;
 }
 
 #logo_screen {
   padding:                0 0 10px 0;
-/*  border:                                               1px dashed green;*/
   width:                  300px;
-/*  position:               absolute;*/
   top:                    20px;
-/*bottom:0;*/
   left:                   20px;
-/*  top:                    -1.8em;*/
-/*  left:                   2.15em;*/
-/*  z-index:                100;*/
-/*float:left;*/
-/*position:relative;*/
-}
-
-#main_content, #footer {
-/*  position:relative;*/
-/*  z-index:-1;*/
-/*display:none;*/
 }
 
 #slogan {
-  bottom:20px;
-  left:20px;
-/*display:none;*/
+  bottom:                 20px;
+  left:                   20px;
 }
 
 #header ul {
-  width:540px;
-/*  border:                                           1px solid blue;*/
-/*  margin-left:            18.5em;*/
-/*  margin-left:    310px;*/
-  position:absolute;
-/*  margin-left:310px;*/
-/*padding:0;*/
-right:20px;
-bottom:35px;
+  width:                  540px;
+  right:                  20px;
+  bottom:                 35px;
 }
 
-
-
 #header li {
-/*  border:                                       1px dotted green;*/
+  border:                                       1px dotted green;
   
   display:                inline;
-  margin:0 !important;
+/*  margin:0 !important;*/
 }
 
 #header li a {
 /*  border:                                     1px dotted gray;*/
-/*  display:                block;*/
-/*  float:                  left;*/
   padding:                8px 25px;
-  margin:0;
+  margin:                 0;
 }
 #header li a:active {
-/*  position:               relative;*/
-/*  top:                    1px;*/
+  position:               relative;
+  top:                    1px;
 }
 
 #global_search {
@@ -103,12 +78,16 @@ bottom:35px;
 }
 
 #global_search #query {
-  width:                  10em;
-  padding:                0 .5em;
+  width:                  160px;
+  padding:                0 8px;
   border:                 3px solid;
-  position:               absolute;
-  top:                    -1.5em;
+  top:                    -20px;
   right:                  0;
+
+  -moz-border-radius-topleft:       10px;
+  -webkit-border-top-left-radius:   10px;
+  -moz-border-radius-topright:      10px;
+  -webkit-border-top-right-radius:  10px;
 }
 
 *[type="hidden"] {
@@ -119,36 +98,36 @@ bottom:35px;
 
 /* Main content */
 #main_content {
-  padding:                0 2.5em 2.5em 2.5em;
+  padding:                0 40px 40px 40px;
   border:                 2px solid;
 }
 
 #main_content h1 {
-  padding:                1.5em 0 0 0;
-  margin-bottom:          .5em;
+  padding:                24px 0 0 0;
+  margin-bottom:          8px;
   position:               relative;
   z-index:                2;
 }
 
 #main_content h2 {
-  padding:                3.5em 0 0 0;
-  margin-bottom:          -5em;
+  padding:                56px 0 0 0;
+  margin-bottom:          -80px;
 }
 
 #subnavigation {
-  padding:                .5em 0;
-  margin-left:            20em;
+  padding:                8px 0;
+  margin-left:            320px;
 }
 
 #subnavigation a {
-  margin-left:            4em;
+  margin-left:            64px;
 }
 /* /Main content */
 
 
 /* Thumbnails list */
 #thumbnails {
-  margin-top:             2em;
+  margin-top:             32em;
   border:1px dotted blue;
 /*  margin-left:-2.5em;*/
 /*  margin-right:-2.5em;*/
