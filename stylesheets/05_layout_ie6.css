@@ -1,0 +1,3 @@
+body.videos #thumbnails img {
+  width:expression(this.width > 240 ? "240px" : true);
+}

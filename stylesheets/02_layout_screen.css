@@ -190,6 +190,9 @@ z-index:1;
   top:                    -10px;
   left:                   13px;
 }
+body.videos #thumbnails div img {
+  max-width:              240px;
+}
 
 body#gallery #thumbnails, 
 body#search #thumbnails {
