@@ -359,7 +359,21 @@ body.application #main_content h3 {
 }
 
 #footer p {
-  margin-bottom:          .75em;  
+  margin-bottom:          .5em;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h2 {
+  margin-top:             .5em;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
 }
 /* /Footer */
 

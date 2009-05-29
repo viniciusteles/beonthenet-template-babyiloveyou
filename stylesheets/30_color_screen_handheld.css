@@ -173,4 +173,14 @@ body#selection #main_content h1:after {
 #footer {
   background:             #EDE8D2;
 }
+
+#footer h1, 
+#footer h1 a {
+  color:                  #444;
+}
+
+#beonthenet:hover img, 
+#improveit:hover {
+  color:                  #B4540D;
+}
 /* /Footer */ 
