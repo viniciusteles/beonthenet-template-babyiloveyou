@@ -204,11 +204,11 @@ body.application #main_content h2 {
   font-size:              85%;  
 }
 
-#footer h1, #footer h2, #footer h5 {
+#footer h2, #footer h3, #footer h5 {
   font-size:              72%;
 }
 
-#footer h1 a {
+#footer h2 a {
   text-decoration:        none;
 }
 #footer #beonthenet, 
