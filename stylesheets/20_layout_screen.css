@@ -237,8 +237,8 @@ body#search_picture #summary {
 /* Big picture, big video */
 #big_picture {
   width:                  63.25em;
-  min-height:             33.25em;
-  height:                 auto !important;
+/*  min-height:             33.25em;*/
+/*  height:                 auto !important;*/
   margin-right:           -50%;
   position:               relative;
   right:                  22.9%;
