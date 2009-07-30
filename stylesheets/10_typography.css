@@ -47,7 +47,7 @@ em {
 }
 
 #header li a {
-  line-height:            2.5em;
+  line-height:            1.5em;
 }
 
 #slogan, #global_search #query {
@@ -95,12 +95,11 @@ form input, form textarea {
   list-style:             none;
 }
 
-#thumbnails li div {
+#thumbnails li * {
   text-align:             center;
 }
 
-#thumbnails li div a {
-  text-align:             center;
+#thumbnails div a {
   text-decoration:        none;
 }
 

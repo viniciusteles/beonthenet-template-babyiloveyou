@@ -57,7 +57,7 @@ body {
 }
 
 #header li {
-/*  border:                                       1px dotted green;*/
+  border:                                       1px dotted green;
   float:left;
 /*  display:                inline;*/
 /*  margin:0 !important;*/
@@ -129,25 +129,99 @@ body {
 
 /* Thumbnails list */
 #thumbnails {
-  border:  1px dotted blue;
+/*  margin-top:             32em;*/
+  border:1px dotted blue;
+/*  margin-left:-2.5em;*/
+/*  margin-right:-2.5em;*/
 }
 
 #thumbnails li {
-  width:    250px;
-  float:left;
+/*  border:1px dotted red;*/
+  width:290px;
+  position:relative;
+
+  float:                  left;
+  margin:                 2.5em 3em 2.5em 1em;
+}
+#thumbnails > li {
+/*  margin:                 2.5em 2em 2.5em 2em;*/
+  margin:                 2.5em 2em 2.5em 5em;
+}
+
+#thumbnails h2 {
+  margin-bottom:          .5em;
   
+  position:absolute;
+  left:0;
+  bottom:295px;
+  width:100%;
+}
+
+#thumbnails h3 {
+/*  display:                none;*/
+position:absolute;
+right:0;
+bottom:287px;
+/*width:30px;*/
+/*border:1px dashed blue;*/
+width:100%;
+font-size: 80%;
+text-align:center;
+z-index:1;
+}
+
+#thumbnails h3 a {
+/*font-family:serif;*/
+  color:#415579;
+  text-decoration:none;
+}
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+#thumbnails div a {
+/*  display:                table-cell;*/
+  width:                  290px;
+  height:                 285px;
+/*  vertical-align:         middle;*/
 }
 
 
-#thumbnails img {
-/*  display:block;*/
-  padding:  4px;
-  border-width:1px;
-  border-style:solid;
-  border-color: #EDE8D2;
-  background: #FFF;
+#thumbnails div img {
+  border:                 2px solid;
+  position:               relative;
+  top:                    -10px;
+  left:                   13px;
+}
+body.videos #thumbnails div img {
+/*  max-width:              240px;*/
+  width:                  240px;
 }
 
+body#gallery #thumbnails, 
+body#search #thumbnails {
+  margin:                 0 -2.5em;
+}
+
+body#gallery #thumbnails li, 
+body#search #thumbnails li {
+  padding:                0 .3em;
+  margin:                 0 0 20px 0;
+}
+
+body#gallery #thumbnails div a, 
+body#search #thumbnails div a {
+  width:                  250px;
+  height:                 250px;
+  padding:                0;
+  background:             none;
+}
+
+body#gallery #thumbnails div img, 
+body#search #thumbnails div img {
+  padding:                4px;
+  border:                 1px solid;
+  position:               static;
+}
 /* /Thumbnails list */
 
 
