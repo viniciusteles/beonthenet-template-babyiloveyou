@@ -5,7 +5,7 @@ html * {
 	margin:                 0;
 }
 
-hr, ul#thumbnails li.empty {
+hr, li.empty {
   display:                block;
   float:                  none;
   height:                 0;
@@ -47,7 +47,7 @@ body {
 
 #slogan {
   bottom:                 20px;
-  left:                   20px;
+  left:                   40px;
 }
 
 #header ul {
@@ -58,17 +58,17 @@ body {
 
 #header li {
 /*  border:                                       1px dotted green;*/
-  float:left;
+  float:                  left;
 /*  display:                inline;*/
 /*  margin:0 !important;*/
 }
 
 #header li a {
-  display:block;
+  display:                block;
   
 /*  border:                                     1px dotted gray;*/
   padding:                8px 25px;
-  margin:                 0;
+/*  margin:                 0;*/
 }
 #header li a:active {
   position:               relative;
@@ -76,7 +76,7 @@ body {
 }
 
 #global_search {
-  width:                  auto;
+/*  width:                  auto;*/
 }
 
 #global_search #query {
@@ -86,14 +86,14 @@ body {
   top:                    -20px;
   right:                  0;
 
-  -moz-border-radius-topleft:       10px;
-  -webkit-border-top-left-radius:   10px;
-  -moz-border-radius-topright:      10px;
-  -webkit-border-top-right-radius:  10px;
+/*  -moz-border-radius-topleft:       10px;*/
+/*  -webkit-border-top-left-radius:   10px;*/
+/*  -moz-border-radius-topright:      10px;*/
+/*  -webkit-border-top-right-radius:  10px;*/
 }
 
 *[type="hidden"] {
-  display:                none;
+/*  display:                none;*/
 }
 /* Header */
 
@@ -101,51 +101,52 @@ body {
 /* Main content */
 #main_content {
   padding:                0 40px 40px 40px;
-  border:                 2px solid;
+  border-width:           2px;
+  border-style:           solid;
 }
 
 #main_content h1 {
   padding:                24px 0 0 0;
   margin-bottom:          8px;
-  position:               relative;
-  z-index:                2;
+/*  position:               relative;*/
+/*  z-index:                2;*/
 }
 
 #main_content h2 {
-  padding:                56px 0 0 0;
-  margin-bottom:          -80px;
+/*  padding:                56px 0 0 0;*/
+/*  margin-bottom:          -80px;*/
 }
 
 #subnavigation {
-  padding:                8px 0;
-  margin-left:            320px;
+/*  padding:                8px 0;*/
+/*  margin-left:            320px;*/
 }
 
 #subnavigation a {
-  margin-left:            64px;
+/*  margin-left:            64px;*/
 }
 /* /Main content */
 
 
 /* Thumbnails list */
 #thumbnails {
-  border:  1px dotted blue;
+/*  border:  1px dotted blue;*/
 }
 
 #thumbnails li {
-  width:    250px;
-  float:left;
+/*  width:    250px;*/
+/*  float:left;*/
   
 }
 
 
 #thumbnails img {
 /*  display:block;*/
-  padding:  4px;
-  border-width:1px;
-  border-style:solid;
-  border-color: #EDE8D2;
-  background: #FFF;
+/*  padding:  4px;*/
+/*  border-width:1px;*/
+/*  border-style:solid;*/
+/*  border-color: #EDE8D2;*/
+/*  background: #FFF;*/
 }
 
 /* /Thumbnails list */
@@ -153,40 +154,40 @@ body {
 
 /* Summary */
 #summary {
-  padding:                25px 30px .1em 30px;
-  margin:                 -2em -1.25em 0 0;
+/*  padding:                25px 30px .1em 30px;*/
+/*  margin:                 -2em -1.25em 0 0;*/
 }
 body#big_picture #summary, 
 body#search_picture #summary {
-  margin-top:             .1em;
+/*  margin-top:             .1em;*/
 }
 /* /Summary */
 
 
 /* Big picture, big video */
 #big_picture {
-  width:                  63.25em;
-  min-height:             140px;
-  height:                 auto !important;
-  height:                 140px;
-  margin-right:           -50%;
-  position:               relative;
-  right:                  22.9%;
-  overflow:               hidden;
+/*  width:                  63.25em;*/
+/*  min-height:             140px;*/
+/*  height:                 auto !important;*/
+/*  height:                 140px;*/
+/*  margin-right:           -50%;*/
+/*  position:               relative;*/
+/*  right:                  22.9%;*/
+/*  overflow:               hidden;*/
 }
 
 #big_picture a {
-	width:                  5.6em;
-	padding:                1em .3em .5em .3em;
-	position:               absolute;
-  top:                    0;
-  z-index:                1;
+/*  width:                  5.6em;*/
+/*  padding:                1em .3em .5em .3em;*/
+/*  position:               absolute;*/
+/*  top:                    0;*/
+/*  z-index:                1;*/
 }
 #big_picture #previous {
-  left:                   13.75em;
+/*  left:                   13.75em;*/
 }
 #big_picture #next {
-  right:                  13.75em;
+/*  right:                  13.75em;*/
 }
 
 #big_picture label {
@@ -197,39 +198,39 @@ body#search_picture #summary {
 
 /* Tags and searchable items */
 #tags {
-  margin:                 .25em 0 1.5em 0;
+/*  margin:                 .25em 0 1.5em 0;*/
 }
 
 #tags a, 
 #valid_search_suggestions a {
-  margin:                 0 .75em;
+/*  margin:                 0 .75em;*/
 }
 
 #valid_search_suggestions {
-  margin-top:             1.5em;
+/*  margin-top:             1.5em;*/
 }
 
 #valid_search_suggestions li {
-  display:                inline;
+/*  display:                inline;*/
 }
 /* /Tags and searchable items */
 
 
 /* Contact form */
 form {
-  width:                  60%;
-  margin:                 auto;
+/*  width:                  60%;*/
+/*  margin:                 auto;*/
 }
 
 form label, input, textarea, button {
-  display:                block;
+/*  display:                block;*/
 }
 
 input, textarea {
-  width:                  100%;
-  padding:                .2em;
-  border:                 2px dashed;
-  margin-bottom:          .75em;
+/*  width:                  100%;*/
+/*  padding:                .2em;*/
+/*  border:                 2px dashed;*/
+/*  margin-bottom:          .75em;*/
 }
 
 label#subject, input#message_subject, 
@@ -239,80 +240,80 @@ label#wedding_place, input#message_wedding_place {
 }
 
 textarea {
-  height:                 15em;
+/*  height:                 15em;*/
 }
 
 button {
-  width:                  20%;
-  padding:                .2em;
-  margin:                 auto;
+/*  width:                  20%;*/
+/*  padding:                .2em;*/
+/*  margin:                 auto;*/
 }
 
 button.submitting {
-  width:                  auto;
-  padding-right:          2.5em;
+/*  width:                  auto;*/
+/*  padding-right:          2.5em;*/
 }
 /* /Contact form */
 
 
 /* Errors and Successes */
 .email_field_with_errors {
-  border:                 2px solid;
+/*  border:                 2px solid;*/
 }
 /* Errors and Successes */
 
 
 /* Error pages */
 body.application #main_content h2 {
-  height:                 9.75em;
-  padding:                1em 360px 1em 0;
-  margin:                 0em 0 3em 0;
+/*  height:                 9.75em;*/
+/*  padding:                1em 360px 1em 0;*/
+/*  margin:                 0em 0 3em 0;*/
 }
 
 body.application #main_content h3 {
-  margin-bottom:          1.5em;
+/*  margin-bottom:          1.5em;*/
 }
 
 .error_hints {
-  margin:                 1.5em 10em;
+/*  margin:                 1.5em 10em;*/
 }
 
 .error_hints li {
-  margin-bottom:          1em;
+/*  margin-bottom:          1em;*/
 }
 /* /Error pages */
 
 
 /* Footer */
 #footer {
-  padding:                .75em 2.5em 1.5em 2.5em;
+/*  padding:                .75em 2.5em 1.5em 2.5em;*/
 }
 
 #footer p {
-  margin-bottom:          .5em;
+/*  margin-bottom:          .5em;*/
 }
 
 #beonthenet img {
-  width:                  95px;
-  height:                 22px;
-  margin:                 0 -4px -3px 0;
+/*  width:                  95px;*/
+/*  height:                 22px;*/
+/*  margin:                 0 -4px -3px 0;*/
 }
 
 #footer h3 {
-  margin-top:             .5em;
+/*  margin-top:             .5em;*/
 }
 
 #footer h5 {
-  margin:                 2em 0 .5em 0;
+/*  margin:                 2em 0 .5em 0;*/
 }
 /* /Footer */
 
 
 /* Generated content */
 body#selection #main_content h1:after {
-  display:                block;
-  margin:                 2em 130px 0 130px;
-  content:                "Desculpe, infelizmente a seleção de imagens ainda não está disponível neste template. Estamos cuidando disso. Se você chegou até aqui digitando na barra de endereços, use o menu no topo do site para navegar de volta às páginas desejadas.";
+/*  display:                block;*/
+/*  margin:                 2em 130px 0 130px;*/
+/*  content:                "Desculpe, infelizmente a seleção de imagens ainda não está disponível neste template. Estamos cuidando disso. Se você chegou até aqui digitando na barra de endereços, use o menu no topo do site para navegar de volta às páginas desejadas.";*/
 
 }
 /* /Generated content */
@@ -326,22 +327,22 @@ body#selection #main_content h2,
 body#selection #main_content p.pages,
 body#selection #main_content p.checkout,
 body#selection #main_content p.pictures_sent {
-  display:                none;
+/*  display:                none;*/
 }
 /* /Disappearing content */
 
 
 /* Text */
 .text #main_content {
-  padding-right:          170px;
-  padding-left:           170px;
+/*  padding-right:          170px;*/
+/*  padding-left:           170px;*/
 }
 
 .text #main_content h1, 
 .text #main_content h2, 
 .text #main_content h3 {
-  margin-right:           -130px;
-  margin-left:            -130px;
+/*  margin-right:           -130px;*/
+/*  margin-left:            -130px;*/
 }
 
 p {
